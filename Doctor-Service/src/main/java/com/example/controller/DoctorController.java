@@ -11,7 +11,10 @@ import com.exmaple.domain.DoctorBean;
 @Controller
 @RequestMapping("/doctor-service")
 public class DoctorController {
-	
+	/**
+	 * 
+	 * @return
+	 */
 	@RequestMapping(value="/ds")
 	public @ResponseBody ResponseEntity getDoctorDetails() {
 		
